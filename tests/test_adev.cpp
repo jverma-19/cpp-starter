@@ -1,10 +1,10 @@
-#include "cpp_starter/adev.hpp"
-
 #include <gtest/gtest.h>
 
 #include <cmath>
 #include <random>
 #include <vector>
+
+#include "cpp_starter/adev.hpp"
 
 TEST(AllanDeviation, ZeroForConstantInput) {
     const std::vector<double> y(100, 1.0);
